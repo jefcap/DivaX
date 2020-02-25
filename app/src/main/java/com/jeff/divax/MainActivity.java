@@ -16,20 +16,10 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
 
-    protected void registerLivros(List<Livro> livros){
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
-        livros.add(new Livro("Game of Thrones", "George R. R. Martin", "Batalha dos tronos", 30.00));
+
+    protected void registerVulnerabilities(List<Vulnerability> vulnerabilities){
+        vulnerabilities.add(new Vulnerability(getString(R.string.insecure_logging), getString(R.string.insecure_logging_description)));
+        vulnerabilities.add(new Vulnerability(getString(R.string.hardcoding_issues_1), getString(R.string.hardcoding_issue_1_description)));
     }
 
     @Override
@@ -39,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recycler);
 
-        List<Livro> livros = new ArrayList<Livro>();
-        registerLivros(livros);
 
+        List<Vulnerability> vulnerabilities = new ArrayList<Vulnerability>();
+        registerVulnerabilities(vulnerabilities);
 
-        mAdapter = new NossoAdapter(livros, this);
+        mAdapter = new VulnerabilityAdapter(vulnerabilities, this);
         recyclerView.setAdapter(mAdapter);
         layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
 

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DivaX</string>
+    <string name="insecure_logging">1- Insecure Logging</string>
+    <string name="insecure_logging_description">Find out what is being logged where/how and vulnerable code</string>
+    <string name="hardcoding_issues_1">2- Hardcoding Issues - Part 1</string>
+    <string name="hardcoding_issue_1_description">Find out what is hardcoded and where</string>
 </resources>
