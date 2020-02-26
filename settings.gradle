@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':insecurelogging'
 rootProject.name='DivaX'
