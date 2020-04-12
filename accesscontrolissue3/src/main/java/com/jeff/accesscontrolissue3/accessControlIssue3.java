@@ -1,14 +1,14 @@
-package com.jeff.divax;
+package com.jeff.accesscontrolissue3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ActivityTest2 extends AppCompatActivity {
+public class accessControlIssue3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test2);
+        setContentView(R.layout.activity_access_control_issue3);
     }
 }

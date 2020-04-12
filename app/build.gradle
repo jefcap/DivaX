@@ -28,4 +28,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
     implementation project (':insecurelogging')
+    implementation project (':hardcodingissue1')
+    implementation project (':hardcodingissue2')
+    implementation project (':insecuredatastorage1')
+    implementation project (':insecuredatastorage2')
+    implementation project (':insecuredatastorage3')
+    implementation project (':insecuredatastorage4')
+    implementation project (':inputvalidationissue1')
+    implementation project (':inputvalidationissue2')
+    implementation project (':inputvalidationissue3')
+    implementation project (':accesscontrolissue1')
+    implementation project (':accesscontrolissue2')
+    implementation project (':accesscontrolissue3')
+
 }

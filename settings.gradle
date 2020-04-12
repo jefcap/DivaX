@@ -1,2 +1,2 @@
-include ':app', ':insecurelogging'
+include ':app', ':insecurelogging', ':insecuredatastorage1', ':insecuredatastorage2', ':insecuredatastorage3', ':insecuredatastorage4', ':accesscontrolissue1', ':accesscontrolissue2', ':accesscontrolissue3', ':hardcodingissue1', ':hardcodingissue2', ':inputvalidationissue1', ':inputvalidationissue2', ':inputvalidationissue3'
 rootProject.name='DivaX'

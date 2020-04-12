@@ -21,14 +21,20 @@ public class MainActivity extends AppCompatActivity {
 
     protected void registerVulnerabilities(List<Vulnerability> vulnerabilities){
         vulnerabilities.add(new Vulnerability(getString(R.string.insecure_logging), getString(R.string.insecure_logging_description), com.jeff.insecurelogging.InsecureLogging.class));
-        vulnerabilities.add(new Vulnerability(getString(R.string.hardcoding_issues_1), getString(R.string.hardcoding_issue_1_description), ActivityTest2.class));
-//        vulnerabilities.add(new Vulnerability("3- Insecure Data Storage - Part 1", "Find out where/how the credentials are being stored and the vulnerable code (SharedPreferences)."));
-//        vulnerabilities.add(new Vulnerability("4- Insecure Data Storage - Part 2", "Find out where/how the credentials are being stored and the vulnerable code (SQLite local Database)."));
-//        vulnerabilities.add(new Vulnerability("5- Insecure Data Storage - Part 3", "Find out where/how the credentials are being stored and the vulnerable code (Saved in internal R/W file)."));
-//        vulnerabilities.add(new Vulnerability("6- Insecure Data Storage - Part 4", "Find out where/how the credentials are being stored and the vulnerable code (Saved in external R/W file)."));
-//        vulnerabilities.add(new Vulnerability("7- Access Control Issues - Part 1", "You are able to access the API credentials when you click the button. Now, try to access the APO credentials from outside the app (Activity with exported intent)."));
-//        vulnerabilities.add(new Vulnerability("8- Access Control Issues - Part 2", "You are able to access the API credentials when you click the button. Now, try to access the APO credentials from outside the app (Activity with exported intent and putextras)."));
-//        vulnerabilities.add(new Vulnerability("9- Access Control Issues - Part 3", "This is a private notes application. You can create a PIN once and access your notes after entering the correct pin. Now, try to access the private notes from outside the app without knowing the PIN."));
+        vulnerabilities.add(new Vulnerability(getString(R.string.hardcoding_issues_1), getString(R.string.hardcoding_issue_1_description), com.jeff.hardcodingissue1.hardcodingIssue1.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.hardcoding_issues_2), getString(R.string.hardcoding_issue_2_description), com.jeff.hardcodingissue2.hardcodingIssue2.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.insecure_data_storage_1), getString(R.string.insecure_data_storage_1_description), com.jeff.insecuredatastorage1.insecureDataStorage1.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.insecure_data_storage_2), getString(R.string.insecure_data_storage_2_description), com.jeff.insecuredatastorage2.insecureDataStorage2.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.insecure_data_storage_3), getString(R.string.insecure_data_storage_3_description), com.jeff.insecuredatastorage3.insecureDataStorage3.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.insecure_data_storage_4), getString(R.string.insecure_data_storage_4_description), com.jeff.insecuredatastorage4.insecureDataStorage4.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.input_validation_issue_1), getString(R.string.input_validation_issue_1_description), com.jeff.inputvalidationissue1.inputValidationIssue1.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.input_validation_issue_2), getString(R.string.input_validation_issue_2_description), com.jeff.inputvalidationissue2.inputValidationIssue2.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.input_validation_issue_3), getString(R.string.input_validation_issue_3_description), com.jeff.inputvalidationissue3.inputValidationIssue3.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.access_control_issue_1), getString(R.string.access_control_issue_1_description), com.jeff.accesscontrolissue1.accessControlIssue1.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.access_control_issue_2), getString(R.string.access_control_issue_2_description), com.jeff.accesscontrolissue2.accessControlIssue2.class));
+        vulnerabilities.add(new Vulnerability(getString(R.string.access_control_issue_3), getString(R.string.access_control_issue_3_description), com.jeff.accesscontrolissue3.accessControlIssue3.class));
+
+
     }
 
     @Override
