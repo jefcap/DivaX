@@ -3,7 +3,10 @@
     package="com.jeff.insecurelogging">
 
     <application>
-        <activity android:name=".InsecureLogging"></activity>
+        <activity
+            android:name=".InsecureLogging"
+            android:label="@string/log_title"
+            ></activity>
     </application>
 
 </manifest>

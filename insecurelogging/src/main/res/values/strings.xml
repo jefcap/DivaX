@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">InsecureLogging</string>
+    <string name="log_title">Insecure Logging</string>
+    <string name="log_intro"><b>Objective</b>: Find out what is being logged where/how and the vulnerable code.\n
+                             <b>Hint</b>: Insecure logging occurs when developers intentionally
+                             or unintentionally log sensitive information such as
+                             credentials, session IDs, financial details etc.</string>
+    <string name="log_enter">Enter your credit card number</string>
+    <string name="log_checkout">Check out</string>
 </resources>

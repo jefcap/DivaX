@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/accesscontrolissue1" />
+            <option value="$PROJECT_DIR$/accesscontrolissue2" />
+            <option value="$PROJECT_DIR$/accesscontrolissue3" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/hardcodingissue1" />
+            <option value="$PROJECT_DIR$/hardcodingissue2" />
+            <option value="$PROJECT_DIR$/inputvalidationissue1" />
+            <option value="$PROJECT_DIR$/inputvalidationissue2" />
+            <option value="$PROJECT_DIR$/inputvalidationissue3" />
+            <option value="$PROJECT_DIR$/insecuredatastorage1" />
+            <option value="$PROJECT_DIR$/insecuredatastorage2" />
+            <option value="$PROJECT_DIR$/insecuredatastorage3" />
+            <option value="$PROJECT_DIR$/insecuredatastorage4" />
+            <option value="$PROJECT_DIR$/insecurelogging" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
-        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>
