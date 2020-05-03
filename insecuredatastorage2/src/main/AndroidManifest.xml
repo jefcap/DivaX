@@ -3,7 +3,10 @@
     package="com.jeff.insecuredatastorage2">
 
     <application>
-        <activity android:name=".insecureDataStorage2"></activity>
+        <activity
+            android:name=".insecureDataStorage2"
+            android:label="@string/insecureDataStorage2_title">
+            ></activity>
     </application>
 
 </manifest>

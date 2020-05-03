@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">InsecureDataStorage2</string>
+    <string name="insecureDataStorage2_title">Insecure Data Storage - Part 2</string>
+    <string name="insecureDataStorage2_intro"><b>Objective</b>: Find out where/how the credentials are being stored and the vulnerable code.\n
+                                              <b>Hint</b>: Insecure data storage is the result of storing confidential information insecurely
+                                              on the system i.e. poor encryption, plain text, access control issues etc. </string>
+    <string name="insecureDataStorage2_user">Enter 3rd party service user name</string>
+    <string name="insecureDataStorage2_password">Enter 3rd party service password</string>
+    <string name="insecureDataStorage2_save">SAVE</string>
 </resources>
