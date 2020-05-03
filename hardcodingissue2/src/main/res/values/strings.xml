@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">hardcodingIssue2</string>
+    <string name="hardcode2_title">Hardcoding Issues - Part 2</string>
+    <string name="hardcode2_intro"><b>Objective</b>: Find out what is hardcoded a`nd where.\n
+                             <b>Hint</b>: Developers sometimes will hardcode sensitive information for ease.</string>
+    <string name="hardcode2_enter">Enter the vendor key</string>
+    <string name="hardcode2_access">ACCESS</string>
 </resources>

@@ -3,7 +3,10 @@
     package="com.jeff.hardcodingissue2">
 
     <application>
-        <activity android:name=".hardcodingIssue2"></activity>
+        <activity
+            android:name=".hardcodingIssue2"
+            android:label="@string/hardcode2_title">
+        </activity>
     </application>
 
 </manifest>

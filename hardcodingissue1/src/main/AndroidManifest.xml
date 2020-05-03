@@ -5,8 +5,8 @@
     <application>
         <activity
             android:name=".hardcodingIssue1"
-            android:label="@string/hardcode1_title"
-            ></activity>
+            android:label="@string/hardcode1_title">
+        </activity>
     </application>
 
 </manifest>
