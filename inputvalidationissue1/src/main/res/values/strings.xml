@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">inputvalidationissue1</string>
+    <string name="inputvalidationissue1_intro"><b>Objective</b>: Try to access all user data without knowing any user name. There are three users
+                             by default and your task is to output data of all the three users with a single malicious search.\n
+                             <b>Hint</b>: Improper or no input validation issue arise when the input is not filtered or validated
+                             before using it. When developing components that take input from outside, always validate it.
+                             For ease of testing there are three users already present in the database, for example one of them is
+                             admin, you can try searching for admin to test the output.</string>
+    <string name="inputvalidationissue1_enter">Enter user name to search</string>
+    <string name="inputvalidationissue1_search">SEARCH</string>
 </resources>
